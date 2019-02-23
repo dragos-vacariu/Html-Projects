@@ -1,0 +1,21 @@
+a:link    {color:green; background-color:transparent; text-decoration:underline}
+a:visited {color:pink; background-color:transparent; text-decoration:undeline}
+a:hover   {color:red; background-color:transparent; text-decoration:underline}
+a:active  {color:yellow; background-color:transparent; text-decoration:underline}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 15px;
+    text-align: left;
+    border-spacing: 5px;
+
+}
+#t01,#th01, #th02, #th03, #th04{
+    border-style: none;
+    border-spacing: 0px;
+    padding: none;
+}
+
+
+//css for borders
+//Cell padding specifies the space between the cell content and its borders.

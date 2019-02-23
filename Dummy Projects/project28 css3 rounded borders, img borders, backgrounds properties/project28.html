@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project 28</title>
+	<meta charset="UTF-8">
+	<style>
+		#rcorners2 {
+			border-radius: 25px;
+			border: 2px solid #73AD21;
+			background: #73AD21;
+			padding: 20px; 
+			width: 200px;
+			height: 150px;  
+			font-size: 20px;
+		}
+		/*CSS uses only these kind of comments*/
+		#borderimg { 
+			border: 10px solid transparent;
+			padding: 15px;
+			-webkit-border-image: url(border.png) 30 round; /* Safari 3.1-5 */
+			-o-border-image: url(border.png) 30 round; /* Opera 11-12.1 */
+			border-image: url(border.png) 30 round;
+		}
+		h2{
+			background-color: darkred;
+			font-family: Verdana;
+			font-size: 25px;
+			letter-spacing: 2px;
+			word-spacing: 5px;
+			text-shadow: 3px 2px 0px gray;
+			padding: 20px;
+			color: white;
+		}
+		h1{
+			border-color: green;
+			border-style: inset;
+			border-width: 3px;
+			background-color: lightgreen;
+			padding: 20px;
+			color: darkgreen;
+			font-family: Arial;
+			font-size: 30px;
+			text-shadow: 3px 2px 1px white;
+		}
+	</style>
+</head>
+<body>
+	<h1>CSS3 border-radius Property</h1>
+	<h2>With CSS3, you can give any element "rounded corners", by using the border-radius property.</h2>
+	<p id="rcorners2">Rounded corners!</p>
+	<img src="all css3 rounded corners properties.jpg" alt="css3 rounded corners properties">
+	<h1>CSS3 Border Images</h1>
+	<h2>With the CSS3 border-image property, you can set an image to be used as the border around an element.</h2>
+	<p id="borderimg">Here, the middle sections of the image are repeated to create the border.</p>
+	<p>Here is the original image:</p><img src="border.png">
+	</br>
+	<img src="css3 all image border properties.jpg" alt="image border properties in css3">
+	<img src="css3 backgrounds.jpg" alt="information about css3 backgrounds">
+	<img src="multiple backgrounds.jpg" alt="information about css3 backgrounds">
+	<h2>The CSS3 background-size property allows you to specify the size of background images.</h2>
+	<img src="sizes multiple backgrounds.jpg" alt="multiple backgrounds">
+	<img src="all css3 background properties.jpg" alt="css3 background properties">
+</body>
+</html>

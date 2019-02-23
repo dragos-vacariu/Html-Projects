@@ -1,0 +1,201 @@
+body{
+	background-color: black;
+	color: white;
+}
+#body{
+	background-image: url("./background.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 800px;
+}
+nav li{
+	display: inline;
+	text-transform: uppercase;
+	padding: 20px;
+	float: right;
+}
+#Site_title{
+	float: left;
+	position: relative;
+	left: 10%;
+	font-family: Consolas;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-size: 18px;
+	padding-left:60px;
+}
+header{
+	height: 40px;
+}
+#content{
+	position: relative;
+	top:40%;
+	margin-left: 20%;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	width:60%;
+	background-color:rgba(0,0,0,0.2); /*black background almost transparent*/
+	padding: 10px;
+}
+#news, #future, #events{
+	border-top-style: solid;
+	border-top-color: white;
+	border-top-width: 1px;
+	padding-left: 10px;
+}
+#right-block{
+	position: absolute;
+	left:55%;
+	top: 0%;
+	width: 40%;
+	padding: 10px;
+}
+#left-block{
+	position: relative;
+	width: 40%;
+}
+.title{
+	letter-spacing: 5px;
+	font-size: 18px;
+}
+#author_overlay{
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-family: Arial;
+	font-size: 28px;
+	width:100px;
+	position: absolute;
+	left: 60%;
+	top:30%;
+	color: #bb2211;
+	text-shadow: -2px 3px #111111;
+}
+header{
+	padding-bottom: 60px;
+}
+#alexandra{
+	color: #bb2211;
+}
+nav{
+	margin-right: 200px;
+}
+nav li{
+	margin-left: 20px;
+}
+footer{
+	margin-left:200px;
+	font-family: Courier New;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-align: center;
+	color: #992244;
+}
+footer table, td, th{
+	padding-right: 150px;
+	line-height:1px;
+	text-transform: lowercase;
+}
+footer table{
+	margin-top: 40px;
+}
+footer table th{
+	color: #bb2211;
+	text-transform: uppercase;
+}
+footer table td{
+	color: #999999
+}
+footer h4{
+	text-shadow: 2px 3px 2px #222222;
+}
+a:visited{
+	color: #990000;
+}
+a{
+	color: #009900;
+}
+a:hover{
+	color: #ffff00;
+}
+q:before {
+    content: open-quote;
+}
+ 
+q:after {
+    content: close-quote;
+}
+#body .title{
+	color: #bb2211;
+	text-shadow: 1px 1px #111111;
+}
+#concerts{
+	margin-left: 200px;
+	width: 300px;
+	margin-bottom: 100px;
+}
+#concerts #concert_title{
+	letter-spacing:5px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	padding:5px;
+	font-size: 28px;
+	color: #bb2211;
+	font-family: Consolas;
+	border-bottom-color: #bb2211;
+}
+.date{
+	font-weight: bold;
+	color: #bb2211;
+	font-size: 18px;
+}
+.first-row{
+	color: #bb2211;
+	letter-spacing: 1px;
+	font-size:15px;
+}
+.detail{
+	padding-top: 5px;
+}
+nav a{
+	text-decoration: none;
+}
+nav a:visited{
+	color: white;
+}
+nav #active_link{
+	color: #bb2211;
+}
+#biography_text{
+	padding-top: 0px;
+	padding-left: 5px;
+	width: 400px;
+	position: absolute;
+}
+#biography{
+	margin-left: 200px;
+	margin-bottom: 100px;
+}
+#biography_photo{
+	position: relative;
+	left: 450px;
+}
+#biography #title{
+	padding: 0px;
+	border-bottom-style: solid;
+	border-bottom-color: #bb2211;
+	border-bottom-width:1px;
+	color: #bb2211;
+	width: 200px;
+	letter-spacing:4px;
+	font-family: Tahoma;
+	font-size: 24px;
+}
+#biography_text .normal_text{
+	margin-top: 0px;
+}
+#biography_text .important_text{
+	color: #bb2211;
+	font-size: 18px;
+}

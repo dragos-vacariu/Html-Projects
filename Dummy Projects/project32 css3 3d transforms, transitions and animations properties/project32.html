@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project32</title>
+	<meta charset="UTF-8">
+	<style>
+		#transition{
+			width: 100px;
+			height: 100px;
+			background: red;
+			transition: width 10s;
+		}
+		/*Creating transition*/
+		#transition:hover {
+			width: 800px;
+		}
+		
+		/*This is for animation*/
+		#animation{
+			width: 100px;
+			height: 100px;
+			background-color: red;
+			position: relative;
+			animation-name: example; /*this object will contain this animation;*/
+			animation-duration: 4s;
+			animation-iteration-count: 3;
+			animation-direction: alternate;  
+		}
+		/*Creating the animation:*/
+		@keyframes example {
+			0%   {background-color:red; left:0px; top:0px;}
+			25%  {background-color:yellow; left:200px; top:0px;}
+			50%  {background-color:blue; left:200px; top:200px;}
+			75%  {background-color:green; left:0px; top:200px;}
+			100% {background-color:red; left:0px; top:0px;}
+		}
+		h1{
+			outline-style: outset;
+			outline-color: darkred;
+			outline-width: 3px;
+			background-color: red;
+			color: lightgray;
+			word-spacing: 3px;
+			padding: 15px;
+		}
+		h2{
+			padding: 10px;
+			background-color: lightblue;
+			color: darkblue;
+			text-shadow: 3px 2px 0px white;
+		}
+	</style>
+</head>
+<body>
+<h1>CSS3 3D Transforms:</h1>
+<img src="css3 3d rotatex method.jpg" alt="3d transformations info">
+<img src="css3 3d rotatey method.jpg" alt="3d transformations info">
+<img src="css3 3d rotatez method.jpg" alt="3d transformations info">
+<img src="css3 3d transform properties.jpg" alt="3d transformations info">
+<img src="css3 3d transform methods.jpg" alt="3d transformations info">
+<h1>CSS3 Transitions:</h1>
+<h2>CSS3 transitions allows you to change property values smoothly (from one value to another), over a given duration.</h2>
+<img src="css3 transitions.jpg" alt="transitions in css3">
+<img src="css3 transitions speed.jpg" alt="transitions in css3">
+<img src="css3 transitions delay.jpg" alt="transitions in css3">
+<img src="css3 transitions transformation.jpg" alt="transitions in css3">
+<img src="css3 transitions properties.jpg" alt="transitions in css3">
+<h2>Example:</h2>
+<div id="transition"></div>
+<h1>CSS3 Animations:</h1>
+<h2>CSS3 animations allows animation of most HTML elements without using JavaScript or Flash!</h2>
+<img src="css3 animations keyframe rule.jpg" alt="css3 animations">
+<img src="css3 animations duration.jpg" alt="css3 animations">
+<img src="css3 animations delay.jpg" alt="css3 animations">
+<img src="css3 animations count.jpg" alt="css3 animations">
+<img src="css3 animations speed.jpg" alt="css3 animations">
+<img src="css3 animations properties.jpg" alt="css3 animations">
+<h2>Example:</h2>
+<div id="animation"></div>
+</body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<link rel="stylesheet" href="externalcss.css"> <!-- This is a external CSS reference -->
+	<title>Project 5</title>
+</head>
+	
+<body>
+	<h1><a href = "http://deady.dk-one.com" target="_blank">Link to my page!</a></h1>
+		<!-- target="_blank" attribute will open the link in a new tab. -->
+	<table style="width:100%"> <!--This has an inline CSS, style is used as attribute for inline CSS.-->
+		<!-- IN Notepad++ HTML ATTRIBUTES such as: href, style, target etc are marked with color red. -->
+		<th>HTML Link Attributes:</th> <!-- <th> tag is used to create table headers -->
+		<th>- this is the table header made using <'th> tag.</th>
+		<tr> <!-- <tr> tag is used to create table rows -->
+			<td style="background-color: #000000; color:#ffffff";> <!--<td> tags are used to create columns-->
+				_blank
+			</td>
+			<td>
+				- Opens the linked document in a new window or tab
+			</td>
+		</tr>
+		<tr>
+			<td>
+				_self
+			</td>
+			<td>
+				- Opens the linked document in the same window/tab as it was clicked (this is default)
+			</td>
+		</tr>
+		<tr>
+			<td>
+				_parent
+			</td>
+			<td>
+				- Opens the linked document in the parent frame
+			</td>
+		</tr>
+			<tr>
+			<td>
+				_top
+			</td>
+			<td>
+				- Opens the linked document in the full body of the window
+			</td>
+		</tr>
+			<tr>
+			<td>
+				framename
+			</td>
+			<td> <!-- <td colspan="2"> To make a cell span more than one column, use the colspan attribute:-->
+			<caption>This is a caption:</caption>
+				- Opens the linked document in a named frame
+			</td>
+		</tr>
+	</table>
+	<a href="http://deady.dk-one.com">li<image src = "asciifull.jpg" alt="image as a link" width="40" height = "20">nk</a>
+	<p><a href="#C4">Jump to Paragraph 4</a></p> <!-- <a> tag is used for links -->
+	<h1>Heading1</h1>
+	<h1>Heading2</h1>
+	<h1>Heading3</h1>
+	<h1>Heading4</h1>
+	<h1>Heading5</h1>
+	<h1>Heading6</h1>
+	<h1>Heading7</h1>
+	<h1>Heading8</h1>
+	<p><img src="asciifull.jpg" alt="ascii table" style="float:right; width:142px; height:182px;"<p>
+	<h1 id="C4">Heading9 (here it will jump)</h1> <!-- id stands for identifier, and an id is usually used for unique
+	elements, for multiple elements that should be reference all at once, there should be used a class rather than an id -->
+	<p><'map> tag is used to define an image-map. An image-map is an image with clickable areas.
+	The name attribute of the <'map> tag is associated with the <'img>'s usemap attribute and creates a relationship 
+	between the image and the map.</p>
+
+	<h4>More stuff about lists:</h4>
+	<table>
+		<th>Value</th>
+		<th>Description</th>
+		<tr>
+			<td>cirle</td>
+			<td>Sets the list item marker to a circle</td>
+		</tr>
+			<tr>
+			<td>disc</td>
+			<td>Sets the list item marker to a bullet (default)</td>
+		</tr>
+			<tr>
+			<td>square</td>
+			<td>Sets the list item marker to a square</td>
+		</tr>
+			<tr>
+			<td>none</td>
+			<td>The list items will not be marked</td>
+		</tr>
+	</table>
+	<table id="t01">
+		<th id="th01">disc</th>
+		<th id="th02">square</th>
+		<th id="th03">none</th>
+		<th id="th04">circle</th>
+		<tr>
+			<td>
+				 <ul style="list-style-type:disc; float:left">
+				  <li>Coffee</li>
+				  <li>Tea</li>
+				  <li>Milk</li>
+				</ul>
+			</td>
+			<td>
+				 <ul style="list-style-type:square;">
+				  <li>Coffee</li>
+				  <li>Tea</li>
+				  <li>Milk</li>
+				</ul> 
+			</td>
+			<td>
+				<ul style="list-style-type:none;">
+					  <li>Coffee</li>
+					  <li>Tea</li>
+					  <li>Milk</li>
+					</ul> 
+			</td>
+			<td>
+				<ul style="list-style-type:circle;">
+				  <li>Coffee</li>
+				  <li>Tea</li>
+				  <li>Milk</li>
+				</ul> 
+			<td>
+		</tr>
+	</table>
+	<table>
+		<th>Ordered with numbers</th>
+		<th>Ordered with letters</th>
+		<th>Ordered with roman numbers</th>
+		<th>Description lists</th>
+		<tr>
+			<td>
+				<ol type="1"> <!-- <ol> is a tag used for creating ordered lists-->
+				  <li>Coffee</li> <!-- <li> tag is used to chain an element inside the list-->
+				  <li>Tea</li>
+				  <li>Milk</li>
+				</ol> 
+			</td>
+			<td>
+				<ol type="A">
+				  <li>Coffee</li>
+				  <li>Tea</li>
+				  <li>Milk</li>
+				</ol> 
+			</td>
+			<td>
+				<ol type="i">
+				  <li>Coffee</li>
+				  <li>Tea</li>
+				  <li>Milk</li>
+				</ol> 
+			</td>
+			<td>
+				<dl type="i">
+				  <dt>Coffee</dt>
+				  <dd>twice a day</dd>
+				  <dt>Milk</dt>
+				  <dd>never</dd>
+				</dl> 
+			</td>
+		</tr>
+	</table>
+</body>
+
+</html>

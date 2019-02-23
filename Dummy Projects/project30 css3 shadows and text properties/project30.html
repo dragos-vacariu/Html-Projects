@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project 30</title>
+	<meta charset="UTF-8">
+	<style>
+	#shadow-effect {
+		
+		/*first 2 values are for the shadow (xposition and yposition), the third is for the blur, 
+		the forth is for the color of the shadow.*/
+		
+		text-shadow: 32px 12px 4px black; /*shadow characteristics*/
+		color:red; /*text characteristics*/
+	}
+	/*For the shadow box;*/
+	#box {
+		width:20%;
+		background-color:yellow;
+		box-shadow: 3px -3px 0px black;
+		padding: 10px;
+		font-size: 18px;
+	}
+	/*This is for the text overflowing*/
+	#text1 {
+		background-color:yellow;
+		white-space: nowrap;
+		width: 200px;
+		border: 1px solid #000000;
+		overflow: hidden;
+		text-overflow: clip;
+		word-wrap: break-word;
+		overflow: visible;
+		color: gray;
+	}
+
+	#text2 {
+		background-color:#16ffff;
+		white-space: nowrap;
+		width: 200px;
+		border: 1px solid #000000;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		color: black;
+	}
+	/*This is for text wrapping*/
+	#wrap1{
+		width:50px;
+		background-color:#ef1122;
+	}
+	#wrap2{
+		width:50px;
+		background-color:#1feede;
+		word-wrap: break-word;
+		color: black;
+	}
+	/*This is for line break*/
+	#break1 {
+		width:50px;
+		background-color:#ff00ff;
+		word-break: keep-all;
+		color: black;
+	}
+
+	#break2 {
+		background-color:#e1ff00;
+		width:50px;
+		word-break: break-all;
+		color: black;
+	}
+	h1{
+		outline-style: outset;
+		outline-color: darkgreen;
+		outline-width: 2px;
+		background-color: lightgray;
+		color: darkred;
+		letter-spacing: 2px;
+		word-spacing: 5px;
+		font-family: Legendum;
+		font-size: 28px;
+		padding: 5px;
+	}
+	h2{
+		background-color: darkred;
+		color: pink;
+		box-shadow: 2px 3px 0px black;
+		font-family: Square721 BT;
+		font-size: 22px;
+		padding: 3px;
+	}
+	</style>
+</head>
+<body>
+<h1>CSS3 Shadow effects</h1>
+<h2>With CSS3 you can add shadow to text and to elements.</h2>
+<h2 id="shadow-effect">This text is using shadow effect.</h2>
+<img src="multiple shadows.jpg" alt="shadow css3 information">
+<h1>CSS3 Box Shadow property</h1>
+<h2>The CSS3 box-shadow property applies shadow to elements.</h2>
+<div id="box">This is a shadowed box;</div>
+<img src="all css3 shadow properties.jpg" alt="shadow effect properties">
+<h1>CSS3 Text</h1>
+<h2>The new features are: 
+<ul>
+    <li>text-overflow</li>
+    <li>word-wrap</li>
+    <li>word-break</li>
+</ul>
+The CSS3 text-overflow property specifies how overflowed content that is not displayed should be signaled to the user.
+It can be clipped:
+<p>
+This is some long text that will not fit in the box
+<p id="text1">This is some long text that gets out of the box</p>
+or it can be rendered as an ellipsis (...):
+<p id="text2">This is some long text that</p>
+</br>
+</br>
+The CSS3 word-wrap property allows long words to be able to be broken and wrap onto the next line. 
+</br>
+If a word is too long to fit within an area, it expands outside:
+<p id="wrap1">This is a veryverylongword.</p>
+The word-wrap property allows you to force the text to wrap - even if it means splitting it in the middle of a word:
+<p id="wrap2">This is a veryverylongword.</p>
+The CSS3 word-break property specifies line breaking rules.
+<p id="break1">This paragraph contains some text. This line will-break-at-hyphens.</p>
+<p id="break2">This paragraph contains some text. The lines will break at any character.</p>
+</br>
+<img src="all css3 text properties.jpg" alt="text properties info">
+</p>
+</h2>
+</body>
+<html>
