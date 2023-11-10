@@ -220,6 +220,11 @@ footer h4{
 	text-align:center;
 	color: pink;
 }
+footer h5{
+	padding-top:20px;
+	text-align:center;
+	color: pink;
+}
 footer table{
 	width:90%;
 	margin-left:50px;

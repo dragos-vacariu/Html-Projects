@@ -68,14 +68,14 @@ header{
 	position: absolute;
 	left: 60%;
 	top:30%;
-	color: #bb2211;
+	color: #ffaaaa;
 	text-shadow: -2px 3px #111111;
 }
 header{
 	padding-bottom: 60px;
 }
 #alexandra{
-	color: #bb2211;
+	color: #ffaaaa;
 }
 nav{
 	margin-right: 200px;
@@ -90,7 +90,7 @@ footer{
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	text-align: center;
-	color: #992244;
+	color: #ffffff;
 }
 footer table, td, th{
 	padding-right: 150px;
@@ -101,20 +101,20 @@ footer table{
 	margin-top: 40px;
 }
 footer table th{
-	color: #bb2211;
+	color: #ddbbee;
 	text-transform: uppercase;
 }
 footer table td{
-	color: #999999
+	color: #dddddd
 }
 footer h4{
-	text-shadow: 2px 3px 2px #222222;
+	text-shadow: 2px 3px 2px #aaaaaa;
 }
 a:visited{
-	color: #990000;
+	color: #ddddaa;
 }
 a{
-	color: #009900;
+	color: #99ff00;
 }
 a:hover{
 	color: #ffff00;
@@ -127,7 +127,7 @@ q:after {
     content: close-quote;
 }
 #body .title{
-	color: #bb2211;
+	color: #ffaaaa;
 	text-shadow: 1px 1px #111111;
 }
 #concerts{
@@ -141,17 +141,17 @@ q:after {
 	border-bottom-width: 1px;
 	padding:5px;
 	font-size: 28px;
-	color: #bb2211;
+	color: #ffaaaa;
 	font-family: Consolas;
-	border-bottom-color: #bb2211;
+	border-bottom-color: #ffaaaa;
 }
 .date{
 	font-weight: bold;
-	color: #bb2211;
-	font-size: 18px;
+	color: #ff00aa;
+	font-size: 20px;
 }
 .first-row{
-	color: #bb2211;
+	color: #ffaaaa;
 	letter-spacing: 1px;
 	font-size:15px;
 }
@@ -165,7 +165,7 @@ nav a:visited{
 	color: white;
 }
 nav #active_link{
-	color: #bb2211;
+	color: #ffaaaa;
 }
 #biography_text{
 	padding-top: 0px;
@@ -184,9 +184,9 @@ nav #active_link{
 #biography #title{
 	padding: 0px;
 	border-bottom-style: solid;
-	border-bottom-color: #bb2211;
+	border-bottom-color: #ffaaaa;
 	border-bottom-width:1px;
-	color: #bb2211;
+	color: #ffaaaa;
 	width: 200px;
 	letter-spacing:4px;
 	font-family: Tahoma;
@@ -196,6 +196,6 @@ nav #active_link{
 	margin-top: 0px;
 }
 #biography_text .important_text{
-	color: #bb2211;
+	color: #ffaaaa;
 	font-size: 18px;
 }
