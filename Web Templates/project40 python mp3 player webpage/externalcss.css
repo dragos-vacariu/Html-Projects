@@ -1,0 +1,209 @@
+/* START of Header elements  */
+
+#header_div{
+    position: relative;
+    width: 100%;
+	margin-bottom: 1%;
+    background-color: rgba(255,255,255,0.2);
+}
+
+#header_table{
+    width: 100%;
+    margin-bottom: 1%;
+    background-color: rgba(55,55,55,0.4);
+    border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+
+#header_table td{
+    width: 50%;
+    word-wrap: break-word;
+}
+
+nav li{
+	display: inline;
+	text-transform: uppercase;
+	padding: 20px;
+}
+
+#pyplay{
+	color: #ff3333;
+}
+#Site_title{
+	margin-left: 10%;
+	font-family: Consolas;
+    position: relative;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-size: 18px;
+    word-wrap:break-word;
+    width:100%;
+    height:100%;
+    font-weight: bold;
+    color: white;
+}
+nav{
+    font-weight: bold;
+	margin-right: 10%;
+    top: 0%;
+    position: relative;
+    float: right;
+    
+}
+nav li{
+    position: relative;
+}
+
+nav ul{
+    position: relative;
+}
+
+nav a{
+	text-decoration: none;
+}
+nav a:visited{
+	color: blue;
+}
+nav #active_link{
+	color: #ff3333;
+}
+
+/* END of Header elements  */
+
+/* START of Body elements  */
+body{
+    background-image: url("./body.jpg");
+}
+#body_elements{
+	background-repeat: no-repeat;
+	background-position: center;
+    margin-bottom: 1%;
+    border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+
+#big_title_overlay{
+    position: relative;
+	left: 10%;
+    width:80%;
+    background-color:rgba(0,0,255,0.2); /* adding some color with transperancy*/
+    border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+
+#big_title_overlay h1{
+    text-align: center;
+    text-transform: uppercase;
+	letter-spacing: 5px;
+	font-family: Arial;
+	font-size: 38px;
+    color: #ff9999;
+    padding-top: 10px;
+	text-shadow: -2px 3px #111111;
+}
+
+#big_title_overlay h4{
+    text-align: center;
+    text-transform: uppercase;
+	letter-spacing: 5px;
+	font-family: Arial;
+	font-size: 13px;
+    color: #ff9999;
+    padding: 50px;
+	text-shadow: -2px 3px #111111;
+}
+
+#content{
+	position: relative;
+	margin-left: 10%;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	width:80%;
+    margin-bottom: 1%;
+	background-color:rgba(255,0,0,0.2); /* adding some color with transperancy*/
+}
+
+#description, #features, #downloads, #other_links{
+	border-top-style: solid;
+	border-top-color: black;
+	border-top-width: 1px;
+	padding-left: 10px;
+    color: white;
+}
+#right-block{
+	position: absolute;
+	left:55%;
+	top: 0%;
+	width: 40%;
+	padding: 10px;
+}
+#left-block{
+	position: relative;
+	width: 40%;
+    padding: 10px;
+}
+.title{
+	letter-spacing: 5px;
+	font-size: 18px;
+    color: #ff9999;
+}
+
+/* END of Body elements  */
+/* START of Footer elements  */
+
+footer{
+    background-color: rgba(255,255,255,0.2); /* adding some color with transperancy*/
+	color: ff3333;
+}
+
+footer{
+	margin-left:10%;
+    width: 80%;
+	font-family: Courier New;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-align: center;
+	color: ff3333;
+    font-weight: bold;
+    border-style: solid;
+	border-color: black;
+	border-width: 1px; 
+}
+
+footer h4{
+	text-shadow: 2px 3px 2px #ff3333;
+    color: white;
+    margin-bottom: 1%;
+}
+
+/* END of Footer elements  */
+
+a:visited{
+	color: #aaaaff;
+}
+a{
+	color: #aaffaa;
+    font-size:15px;
+    font-weight: bold;
+    text-transform: uppercase;
+	letter-spacing: 1px;
+}
+a:hover{
+	color: #ffaaaa;
+}
+q:before {
+    content: open-quote;
+}
+ 
+q:after {
+    content: close-quote;
+}
+#body .title{
+	color: #ff3333;
+	text-shadow: 1px 1px #111111;
+}
