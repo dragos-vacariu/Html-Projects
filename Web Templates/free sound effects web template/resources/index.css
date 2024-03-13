@@ -1,0 +1,110 @@
+body {
+    background-color: #d0e4fe;
+}
+
+#main_content{
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+    width:100%;
+}
+
+#main_content h1 {
+    color: Black;
+    text-align: center ;
+    text-shadow: 2px 2px 2px blue;
+    font-family: Trebuchet Ms;
+    font-size: 2.5vw;
+}
+
+#main_content h2{
+    color: Black;
+    text-align: center ;
+    font-family: Trebuchet Ms;
+    font-size: 1.5vw;
+}
+
+#main_content h3 {
+    color: Black;
+    text-align: center ;
+    font-family: Trebuchet Ms;
+    font-size: 1.0vw;
+}
+
+#pagination
+{
+    letter-spacing: 2px;
+    list-style-type: none;
+    text-align: center;
+    position:relative;
+}
+#pagination li 
+{
+    display: inline;
+    padding: 1.5vw;
+    font-family: Trebuchet Ms;
+    font-size: 1.5vw;
+    width: 20%; 
+}
+
+#footer {
+    margin: 2vw;
+    color: Black;
+    text-align: center ;
+}
+
+#footer #logo{
+    position:relative;
+}
+#logo li{
+    display: inline;
+    width: 20%; 
+}
+
+#logo img
+{
+    width:10%;
+}
+
+#footer p{
+    padding:0%;
+    margin:0%;
+    font-family: Trebuchet Ms;
+    font-size: 1.0vw;
+}
+
+#form textarea{
+    position: relative;
+    width: 50%;
+    left: 0%;
+}
+
+#parag
+{
+    text-align: justify;
+    font-family: Trebuchet Ms;
+    width:50%;
+    left:25%;
+    position: relative;
+}
+
+/* unvisited link */
+a:link {
+    color: Blue;
+}
+
+/* visited link */
+a:visited {
+    color: Blue;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+}
+
