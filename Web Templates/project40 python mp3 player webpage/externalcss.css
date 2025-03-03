@@ -74,6 +74,7 @@ nav #active_link{
 /* START of Body elements  */
 body{
     background-image: url("./body.jpg");
+    height: auto;
 }
 #body_elements{
 	background-repeat: no-repeat;
@@ -81,7 +82,7 @@ body{
     margin-bottom: 1%;
     border-style: solid;
 	border-color: black;
-	border-width: 1px;
+	border-width: 0px;
 }
 
 #big_title_overlay{
@@ -124,7 +125,13 @@ body{
 	border-width: 1px;
 	width:80%;
     margin-bottom: 1%;
+    height: auto;
 	background-color:rgba(255,0,0,0.2); /* adding some color with transperancy*/
+    table-layout: fixed;
+}
+
+#content>tr{
+    height: auto;
 }
 
 #description, #features, #downloads, #other_links{
@@ -133,18 +140,33 @@ body{
 	border-top-width: 1px;
 	padding-left: 10px;
     color: white;
+    height: auto; 
 }
+
+.title_header{
+    font-weight: bold;
+    margin: 0px;
+    color: lightgreen;
+    font-family: Consolas;
+}
+
+#description ul{
+    margin: 10px;
+}
+
 #right-block{
-	position: absolute;
-	left:55%;
+	position: relative;
+	left:0%;
 	top: 0%;
 	width: 40%;
 	padding: 10px;
+    height: auto;
 }
 #left-block{
 	position: relative;
 	width: 40%;
     padding: 10px;
+    height: auto;
 }
 .title{
 	letter-spacing: 5px;
@@ -195,6 +217,10 @@ a{
 }
 a:hover{
 	color: #ffaaaa;
+}
+q{
+    font-weight: bold;
+    color: pink;
 }
 q:before {
     content: open-quote;
