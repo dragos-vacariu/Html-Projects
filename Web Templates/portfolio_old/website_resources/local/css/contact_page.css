@@ -1,0 +1,183 @@
+/*THIS IS FOR THE CONTACT PAGE*/
+#contact_content{
+    position: relative;
+    width:98%;
+    margin: 1%;
+    padding: 0%;
+    min-height: 32vw;
+    border: outset 1px black;
+    background-image: linear-gradient(to left, white, #ffeecc);
+    border-radius: 5px;
+    border-collapse: separate;
+    table-layout: fixed; /*will allow the table to shrink beyond regular to maintain its pre-defined shape*/
+    word-wrap: break-word; /*will allow word to break-up in so that it won't drift outside the given width*/
+}
+
+#contact_content #first_column
+{
+    width: 80%;
+    border-right: none 2px yellow;
+    vertical-align: top;
+    background-image: linear-gradient(to left, white, #ffeecc);
+    padding: 2px;
+}
+
+#contact_content #second_column
+{
+    width: 20%;
+    border: none 2px yellow;
+    vertical-align: top;
+    background-image: linear-gradient(to right, white, #ffeecc);
+    padding: 2px;
+}
+
+#contact_content #first_column_header, #contact_content #second_column_header{
+    position: relative;
+    width: auto;
+    margin:0%;
+    min-height:30px;
+    height:auto;
+    padding-left: 2%;
+    padding-top: 7px;
+    font-family: FjallaOne;
+    font-size:15px;
+    text-decoration:none;
+    color:white;
+    letter-spacing: 1px;
+    border-style:solid;
+    border-width:2px;
+    border-color:black;
+    background-color:#995500;
+    text-shadow: 2px 4px #000000;
+}
+
+#contact_content #first_column_header
+{
+    text-align: left;
+}
+
+#contact_content #second_column_header
+{
+    text-align: center;
+}
+
+#contact_content #clock
+{
+    position: relative;
+    width: 97%;
+    margin:0%;
+    height:4vw;
+    padding-left: 2%;
+    padding-top: 2vw;
+    text-align: center;
+    font-family: FjallaOne;
+    font-size:15px;
+    text-decoration:none;
+    color:#995500;
+    letter-spacing: 1px;
+    border-style:none;
+    border-top:inset;
+    border-width:2px;
+    border-color:black;
+    background-color: transparent;
+    text-shadow: 0.1vw 0.1vw pink;
+    vertical-align: bottom;
+}
+
+article{
+    position: relative;
+    width: 98%;
+    border: none 2px red;
+    border-width: 2px;
+    text-align: left;
+    padding-left: 2%;
+}
+
+article h2{
+    font-family: Tahoma;
+    font-size: 14px;
+}
+
+article a:hover{
+    color: red;
+}
+
+article a:selected{
+    color:green;
+}
+
+article img{
+    width: 5vw;
+}
+
+article audio{
+    width: 100px;
+    max-width: 100%; /*This will forbid the element to overpass the bounderies of viewport.*/
+    height: 10px;
+    max-height: 100%; /*This will forbid the element to overpass the bounderies of viewport.*/
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1vw;
+    border-radius: 10px;
+    padding: 0.2vw;
+}
+
+aside{
+    position:relative;
+    width: 100%;
+    color: red;
+    padding-top: 5%;
+    height: 12vw;
+    border: none 1px black;
+    margin: 1% 0%;
+}
+
+aside #anim{
+    width:3vw;
+    position: absolute;
+    text-shadow: 1vw 1vw 0.3vw lightgray;
+    animation-name: animation-contact;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation-contact{
+    0%{top: 0%; left: 5%;}
+    15%{top: 75%; left: 5%;}
+    30%{top: 75%; left: 80%;}
+    45%{top: 0%; left: 80%;}
+    60%{top: 75%; left: 80%;}
+    75%{top: 75%; left: 5%;}
+    100%{ top: 0%; left: 5%;}
+}
+
+aside #image{
+    position: relative;
+    width: 50%;
+    left: 25%;    
+}
+
+aside #greetings{
+    position: absolute;
+    z-index: 1;
+    top: 15%;
+    left: 37%;
+    font-family: FjallaOne;
+    font-variant: small-caps;
+    letter-spacing: 0.1vw;
+    font-size: 1.2vw;
+    font-weight: bold;
+    color: #995500;
+}
+
+#div_with_gif
+{
+    position: relative;
+    border: none 1px black;
+}
+
+#div_with_gif #image
+{
+    position: relative;
+    width: 50%;
+}

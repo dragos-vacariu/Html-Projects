@@ -1,0 +1,105 @@
+<!DOCTYPE html >
+<html  ng-app="myApplication" ng-controller="Controller">
+    <head>
+        <title>Portal</title>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" /> <!--For mobile viewport proper resizing-->
+        <meta name="description" content="Portfolio implemented as means to present and/or demonstrate professional skills, work and efforts put into practice for building up a reliable knowledge foundation to facilitate the adaptability within a new environment, industry, toolchain workplace or with various technologies within the IT industry.">
+        <meta name="keywords" content="HTML,CSS,XML,JavaScript,C,C++,C#,Java,Python,Unity,Programming,IT,Learning,Portal,Projects,Github,Skills,Documentation,Exercise,Examples,Coding,Samples,LinkedIn,Online,Software,Engineering,Scripts,Games,Web,Development,CV,Demonstration,Practice,Electronic,Automation,Computers,Systems,Challenge,AI,Repositories,Tips,Tricks,Know,How,To">
+        <meta name="author" content="Vacariu Dragos">
+        <link rel="icon" type="image/x-icon" href="./website_resources/global/images/favicon.ico">
+        <!--Global resources-->
+        <link rel="stylesheet" href="./website_resources/global/css/global.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+        <!--Local resources-->
+        <link rel="stylesheet" href="./website_resources/local/css/portal_page.css">
+        <!--The local script is placed in the bottom the page-->
+    </head>
+    <body>
+        <header id="page_header">
+            <!--The content will be added from javascript-->
+        </header>
+        <div id="page_block">
+            <h2>Portal</h2>
+            <div id="page_content">
+                <div id="menu_div">
+                    <ul id="menu">
+                        <form id = "searchForm">
+                            <input id="SearchBox" type = "text" placeholder="Search.."></input>
+                            <input id="searchButton" type = "button" value = "Search"></input>
+                            <input id="clearSearchButton" type = "button" value = "Clear"></input>
+                            <select id="searchType" name="searchType">
+                                <option value="contextual">Contextual Search</option>
+                                <option value="matching_words">Matching Words</option>
+                            </select>
+                            <input id="save_button" type = "button" value = "Save Page" onclick = "saveWebPage()"></input>
+                        </form>
+                        <p>Page View:</p> 
+                        <li id = "page_selection" class = "selection_list">
+                        </li>
+                        <p id="view_selection_title">Content View:</p> 
+                        <li id = "view_selection" class = "selection_list">
+                            
+                        </li>
+                        <p>Selection Type:</p> 
+                        <li id = "selection_type" class = "selection_list">
+                            
+                        </li>
+                        <p id="manifest_selection_title">Manifest Selection:</p>
+                        <li id = "manifest_selection" class = "selection_list">
+                            
+                        </li>
+                        <p id="overall_language_selection_title">Overall Manifest Selection:</p>
+                        <li id="overall_language_selection" class = "selection_list">
+                            
+                        </li>
+                        <p id="overall_concept_selection_title">Overall Concept Selection:</p>
+                        <li id="overall_concept_selection" class = "selection_list">
+                           
+                        </li>
+                        <p>Concept Selection:</p>
+                        <li id="concept_selection" class = "concept_selection_list">
+                            
+                        </li>
+                    </ul>
+                </div>
+                <div id="content">
+                    <div id="database_info">
+                        <description>
+                            The portal serves as a gateway to navigate and explore the information extracted from 
+                            a training materials database.
+                        </description>
+                        <br><br>
+                        <info>
+                            The information stored in the database was gathered from various online public sources including: 
+                            <a href="http://www.w3schools.com">W3School</a>, 
+                            <a href="http://www.youtube.com">YouTube<a>, 
+                            <a href="https://www.geeksforgeeks.org/">GeeksForGeeks</a>, 
+                            <a href="https://ro.wikipedia.org/">Wikipedia</a> 
+                            or taken from the personal achieve of exercises, projects, 
+                            training materials and code samples.
+                        </info>
+                        <br><br>
+                        <q>Results of various studies state that a person could become an expert in nearly any 
+                        field as long as they were willing to devote the requisite <blue>10,000 hours</blue> to studying and 
+                        practicing the subject or skill.
+                        <br><br>
+                        <blue>10 000 hours / 8h per day / 20 days per month / 12 months per year &#8773; 5.2 years</blue></q>
+                    </div>
+                    <table id="table_content" hidden="hidden">
+                    </table>
+                </div>
+            </div>
+        </div>
+        <footer id="page_footer">
+            <!--The content will be added from javascript-->
+        </footer> 
+    </body>
+    <!--This resource has to be added here because we need the elements in the HTML document to exist before 
+    running the script-->
+    <!--Global resources-->
+    <script src="./website_resources/global/scripts/global_script.js"></script>
+    <script src="./website_resources/global/scripts/page_selection_styling.js"></script>
+    <!--Local scripts-->
+    <script src="./website_resources/local/scripts/portal_script.js"></script>
+</html>
