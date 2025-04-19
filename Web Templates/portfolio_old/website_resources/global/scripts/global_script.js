@@ -24,7 +24,7 @@ const page_header = `
                     <a ng-if="page.name!='Catalogue'" class = "outer_href" href={{page.value}}>{{page.name}}</a>
                     
                     <div ng-if="page.name=='Catalogue'" class="dropdown_menu" style="padding:0%;">
-                        <a class="outer_href">{{pageObject.page_navigation[1].name}}▼</a>
+                        <a class="outer_href">{{pageObject.page_navigation[2].name}}▼</a>
                         <div class="dropdown_content">
                             <a ng-repeat="page in pageObject.page_navigation_dropdown" href={{page.value}}>{{page.name}}</a>
                         </div>
@@ -69,6 +69,7 @@ function Controller_Function($scope)
     
     $scope.pageObject = {
         page_navigation : [
+            {name: "←︎ Return to Root", value : "../../../dragos-vacariu.github.io/index.html"},
             {name: "Home", value : homePage},
             {name: "Catalogue", value : rootDir + "#"},
             {name: "Contact", value : rootDir + "/contact.html"},
